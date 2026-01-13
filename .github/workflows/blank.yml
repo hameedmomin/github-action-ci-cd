@@ -1,0 +1,12 @@
+name: First workflow
+on: 
+  workflow_dispatch # event
+jobs:
+  first_job: #any thing we can give here
+    runs-on: ubuntun-latest # this key we should be using by actions 
+    steps:
+      - name: Print Welcome message
+        run: echo "Welcome to GitHub Action First WorkFlow"
+      - name: Print thanks 
+        run: echo "Thanks and Good Bye! Have a Nice Day!"
+        
