@@ -1,5 +1,5 @@
 name: First workflow
-on: dispatch # event
+on: workflow_dispatch # event
 jobs:
   first_job: #any thing we can give here
     runs-on: ubuntun-latest # this key we should be using by actions 
